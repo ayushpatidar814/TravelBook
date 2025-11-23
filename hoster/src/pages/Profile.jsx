@@ -3,14 +3,16 @@ import { userProfile, fetchedBookings } from "../assets/assets.js";
 
 const Profile = () => {
   const[bookings, setBookings] = useState([]);
-  const[loading, setLoading] = useState(false);
+  const[loading, setLoading] = useState(true);
   const[editing, setEditing] = useState(false);
   const[editForm, setEditForm] = useState({ ...userProfile });
   const[user, setUser] = useState([])
 
   useEffect(() => {
-    setLoading(true);
-    setBookings(fetchedBookings)
+    setTimeout(() => {
+      setBookings(fetchedBookings);
+      setLoading(false);
+    }, 0);
   }, [])
 
   const handleChange = (e) => {
