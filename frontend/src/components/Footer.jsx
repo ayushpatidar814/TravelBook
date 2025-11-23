@@ -48,7 +48,7 @@ const Footer = () => {
           <h2 className="font-medium text-lg">Host</h2>
           <div className="flex flex-col gap-2 text-gray-700 text-sm md:text-base">
             <a
-              href="https://travel-stay-host.com"
+              href="https://travel-book-stay.vercel.app"
               target="_blank"
               rel="noopener noreferrer"
               className="hover:underline"

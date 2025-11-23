@@ -35,7 +35,7 @@ const Navbar = () => {
           </NavLink>
           <NavLink to="/login" className="text-base md:text-lg font-medium hover:text-teal-600">Login</NavLink>
           <NavLink to="/signup" className="text-base md:text-lg font-medium hover:text-teal-600">SignUp</NavLink>
-          <a href="" target="_blank" rel="noopener noreferrer" className="text-base md:text-lg font-medium text-gray-500 hover:text-blue-600">Host a stay</a>
+          <a href="https://travel-book-stay.vercel.app" target="_blank" rel="noopener noreferrer" className="text-base md:text-lg font-medium text-gray-500 hover:text-blue-600">Host a stay</a>
         </div>
 
         <div className='absolute top-23 right-8 z-100'>
@@ -65,7 +65,7 @@ const Navbar = () => {
                 <NavLink to="/login" onClick={toggleMenu} className="text-lg font-medium hover:text-teal-600">Login</NavLink>
                 <NavLink to="/signup" onClick={toggleMenu} className="text-lg font-medium hover:text-teal-600">SignUp</NavLink>
             </div>
-            <a href="" target="_blank" rel="noopener noreferrer" className="text-base md:text-lg font-medium text-gray-500 hover:text-blue-600">Host a stay</a>
+            <a href="https://travel-book-stay.vercel.app" target="_blank" rel="noopener noreferrer" className="text-base md:text-lg font-medium text-gray-500 hover:text-blue-600">Host a stay</a>
 
           </div>
         </div>
