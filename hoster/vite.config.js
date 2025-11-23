@@ -4,12 +4,5 @@ import tailwindcss from '@tailwindcss/vite'
 
 // https://vite.dev/config/
 export default defineConfig({
-  plugins: [tailwindcss(), react(
-    {
-      jsxRuntime: 'automatic',
-      babel: {
-        plugins: ["@babel/plugin-transform-react-jsx"],
-      },
-    }
-  )],
+  plugins: [tailwindcss(), react()],
 })
